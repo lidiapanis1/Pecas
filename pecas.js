@@ -1,6 +1,6 @@
 var listadepecas = ["peca1", "peca2", "peca3"];
 
-console.log("Quantidade de caracteres");
+console.log("Quantidade de peças");
 
 if (listadepecas.length <= 10) {
   console.log("As peças podem ser cadastradas");
