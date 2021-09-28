@@ -1,4 +1,4 @@
-var listadepecas = ["peca1", "peca2", "peca3"];
+const listadepecas = ["peca1", "peca2", "peca3"];
 
 console.log("Quantidade de peças");
 
