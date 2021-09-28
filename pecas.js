@@ -1,30 +1,28 @@
-const listadepecas = ["peca1", "peca2", "peca3"];
+const ListaDePecas = ['Peca de teste', 'AB', 'Peca B']
 
-console.log("Quantidade de peças");
+console.log('quantidade de peças')
 
-if (listadepecas.length <= 10) {
-  console.log("As peças podem ser cadastradas");
+if (ListaDePecas.length <= 10) {
+    console.log('as peças podem ser cadastradas')
 }
 
-console.log("Quantidade de caracteres");
+console.log('quantidade de caracteres')
 
-for (let index = 0; index < listadepecas.length; index++) {
-  const pecaAtual = listadepecas[index];
-  if (pecaAtual.length < 3) {
-    console.log(
-      pecaAtual +
-        ": a peça possui nome inferior a 3 caracteres e não pode ser cadastrada"
-    );
-  } else {
-    console.log(pecaAtual + ": a peça pode ser cadastrada");
-  }
+for (let index = 0; index < ListaDePecas.length; index++) {
+    const pecaAtual = ListaDePecas[index]
+    if (pecaAtual.length < 3) { 
+        console.log(pecaAtual + ': a peça possui nome inferior a 3 caracteres e não pode ser cadastrada.')
+    }else{
+        console.log(pecaAtual + ': a peça pode ser cadastrada.')
+    }
 }
 
-console.log("peso da peca");
-const pesodapecaemgr = 50;
+console.log('peso da peça')
 
-if (pesodapecaemgr >= 100) {
-  console.log("peso suficiente");
-} else {
-  console.log("peso insuficiente");
-}
+const pesoDaPecaEmGramas =50;
+
+if (pesoDaPecaEmGramas >=100) {
+    console.log('peso suficiente.')
+}else{
+    console.log('valor insuficiente.')
+    }
